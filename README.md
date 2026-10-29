@@ -16,7 +16,13 @@ Most of that work lives in private company repos, so this profile is where I kee
 
 Java 17 · Kotlin · Spring Boot · Kafka · PostgreSQL · MongoDB · Redis · Docker · Kubernetes · Terraform · GitHub Actions · JUnit · Mockito · Datadog
 
-I also use React and TypeScript when a project needs a front end.
+I also use React, Angular and TypeScript when a project needs a front end.
+
+**Side projects**
+
+- [order-events](https://github.com/nagarjuna-thumma/order-events): two Spring Boot services on Kafka with a transactional outbox, idempotent consumer and dead-letter topic. Signed webhooks with retries, OpenTelemetry tracing across Kafka, Prometheus alerts, Kubernetes.
+- [mini-exchange](https://github.com/nagarjuna-thumma/mini-exchange): a small stock exchange. Matching engine, double-entry ledger in Postgres, pre-trade risk checks, scheduled reconciliation and a React trading screen.
+- [expense-claims-api](https://github.com/nagarjuna-thumma/expense-claims-api): Kotlin API secured with Keycloak JWTs, a hash-chained audit log, an OpenAPI contract and an Angular front end.
 
 **Reach me**
 
